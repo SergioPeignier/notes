@@ -1,0 +1,6 @@
++ extrinsec noise can create new equilibriums in dynamical system and change their stability (bifurcations)
++ waddington the strategy of the genes
++ biffurcation and landscape waddington (bifurcation with time dependent parameter)
++ what is life schrodinger
++ biology intrinsic extrinsec noise
++ ito stratonovich dilemma

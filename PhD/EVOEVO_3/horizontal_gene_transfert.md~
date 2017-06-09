@@ -1,0 +1,26 @@
+# Horizontal Gene Transfert 
+
+## [SELECTION FOR GENE CLUSTERING BY TANDEM DUPLICATION](http://www.annualreviews.org/doi/abs/10.1146/annurev.micro.58.030603.123806)
+
+#### Phenomenon evidence
+
++ Genomic island, describes regions of varied function [...] Differences between islands and their neighboring regions and evidence of mobile genetic elements are indicative of horizontal gene transfer.
++ [In islands] Genetic signatures of mobility are evident, such as integrase genes and flanking direct repeats that are duplications of the insertion site.
++ Islands include large regions encoding variable physiological functions. 
++ New nomenclature aims to emphasize that different chromosomal clusters are associated with alternative transfer mechanisms (e.g., conjugative transposons or integrative plasmids) (9, 107). 
++ Gene clustering may originate as the result of horizontal gene transfer (61, 97).
+
+#### Model (59, 61, 97)
++ According to this model, clustering can be thought of as a selfish property of the genes that allows the **comobilization of a genetic region required for a common function (59).**
++ **Clustering facilitates the introduction of novel traits into different cells**. selective benefit travels with the genes
++ **Clustered genes enable the step-wise construction of novel catabolic pathways by the reorganization of genetic segments (11, 86, 105, 111).**
+	+ **Formation of the gene cluster:**
+		+ **proximal genes more likely to be transferred**
+		+ **One function often involve severall genes**
+	+ **Retention of transfered genes:**
+		+ **when they provide benefit to the new recipient.**
+		+ **Genes repairment by homologus recombination of horizontal transfert: corepair (33)**
+	+ **Retention of order:**
+		+ Horizontal transfer: Shuffling of genes during evolution through rearrangements is not prevented by Horizontal transfert
+		+ Regulatory benefit of cotranscription is often cited as an obvious explanation for operons
+

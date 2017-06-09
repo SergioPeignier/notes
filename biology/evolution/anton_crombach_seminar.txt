@@ -1,0 +1,3 @@
+# Evolution as atttractor sculpting, Crombach & Hogeweg 2008
++ A network -> A lot of possible attractors
++ Through Evolution -> network contains the attractors usefull for the different environments encountered

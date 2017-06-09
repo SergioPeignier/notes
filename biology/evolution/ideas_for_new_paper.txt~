@@ -1,0 +1,46 @@
+# Fil conducteur Article:
++ On veut faire du 100\% evolutif (?)
++ Subspace clustering sur data stream
++ Il a été montré qu'une structure de génôme flexible permet de faire du SSC
+avec un approche evolutive (GECCO) ... mais il ne fait pas les streams. Nous on va
+faire du SSC sur du stream dynamique (clusters peuvent changer de façon
+dynamique). 
++ Porbleme d'optimization avec une cible qui change
++ On va tirer partie de techniques d'evolution permetant de s'adapter au
+changement rapidement: On va donc utiliser deux mechanismes (parcequ'il est changeant on cherche à s'adpater):
+	+ Amplification désamplification qui permet de modififier le phenotype à
+partide genes existant dans le genome
+	+ Integrer des morceaux de matériel externe à l'organisme: Ces morceaux
+forment déjà des ensembles de genes coherents qui ont un sens par rapport aux
+fonctions à traiter:- => Permet d'acquerir une fonction très rapidement:
+Donner des exemples par rapport à du Transfert Horizontal (surtout depuis des
+espèces éloignées).
+	+ Une des difficultées est que ces deux opérations nécéssitent travailler
+sur le génotype (faire des manipulations sur les genes) => Or ceci va ralentir
+les calculs des generations
++ Nous on doit aller vite car stream
++ Pour pouvoir calculer plus rapidement les générations sur le stream:
+	+ Un génome abstrait
+	+ Un ensemble de genes encode un trait phenotypique
+	+ On a une representation explicite des traits phenotypiques.
+
+
+# Fil conducteur These:
++ Utiliser ce qu'on a appris avec les deux algorithmes précédents pour en
+faire un nouvel algo qui soit ok pour du SSC de streams:
++ Chameleoclust:
+	+ Genome souple: régulation de la taille du génome, nb de mutations ...
++ SubCmedians:
+	+ Utiliser des elements des données dans le modele
+	+ En vitesse: on était sur un modele plus abstrait
++ Avec Chameleoclust on avait une population et avec SubCMedians une taille de
+1:
+	+ Avec moins d'explorations locales on explore moins vite
+	+ Pour du stream on a besoin de pouvoir explorer vite
++ Pour traiter des streams on va garder:
+	+ Utilisation de materiel externe	
+	+ Rearrangements : Amplification deamplification
+	+ Genome abstrait (manipulation abstraite du genome)
+	+ Population
+	+ On ne garde pas de distinction fonctionnel ou non: cependant certains
+trait peuvent exister sans endomager la fitness. 

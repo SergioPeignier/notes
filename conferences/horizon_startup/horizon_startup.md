@@ -1,0 +1,42 @@
+# Horizon Start-up
+## Exercice 1
+18 min, 20 spaguettis,1m corde, 1m scotch, 1 marshmallow et faire une structure qui soit la plus haute
++ 2 groupes ont plutot reflechit
++ 1 autre groupe a directement commencé à travailler
++ A un moment une/des personnes se levent => implication plus grande dans le projet
++ Lorsque le groupe qui avait fini avant, voit apparaitre la concurance ils ont essayé d'ameliorer la structure => ils tuent leur structure.
++ Maintenir equilibre entre vouloir toujour + (et + que les autres) et developper son projet individuel.
++ Steve blanc => teorie de l'innovation
++ Sarah Sarasvati  => L'effectuation 
++ [marshmellow](http://www.marshmallowchallenge.com/Welcome.html://www.marshmallowchallenge.com/Welcome.html)
++ Faire des prototypes et les amèliorer au fur et à mesure.
+## Exercice 2
++ Se mettre dans la logique de pitch (faire des pitch de manière iterative)
++ Pitch: presenter une techno, une start-up à qq1 qui ne connait rien à ça (caricatural sans l'etre)
++ Prender une techno
++ Repondre à des questions
++ Faire un pitch:
++ Questions:
+	+ Problem: Gestion et monitoring du traffic
+	+ Solution: Reseau de capteurs routiers + simulateur + interface homme machine (showroom)
+	+ Clients: Administrations territoriales + Sociétés privées qui peuvent intervenir dans le trafic + Elargissement vers trafic de gens dans metro 
+	+ Argent: contrat d'exploitation, etudes ponctuelles plus poussées avec le simulateur  
+	+ Besoins: locaux, accés à un serveur de calcule, incubateur
+## Points importants:
++ Aller evaluer les besoins, de maniere iterative
++ On ne doit pas partir de la techno mais du besoin
++ Se concentrer sur le probleme et la solution que l'acheteur attend
++ Il faut toujours qu'il y ait qq1 branché sur la partie administrative + contact avec le client + gestion ressources humaines
++ Il faut très vite trouver un moyen de rendre le projet tangible
+## Prestataire specifiques
++ Juridique
++ Propriete intelectuelle (labo, cabinet)
++ Marketing
++ Financier (experts contables)
++ Commercial
++ Communication (chercher des fonds, clients)
++ Reglementaire (validation du produit comme en medecine ...)
++ Il est possible de deleguer certains elements, mais qu depart, ce n'est pas possible, donc faire de la recherche et startup => impossible
+## Financement
++ Prives: banques, finds, capital risque, business angels, capital developpement (il faut savoir ce qu'ils veulent lors de la presentation)
++ Public: Banque Publique Investissement, Collectivités (Région, Métropole), État, Europe

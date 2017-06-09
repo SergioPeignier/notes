@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="operations">Operations</h1>
+<h2 id="horizontal-gene-transfert-hgt">Horizontal Gene Transfert (HGT):</h2>
+<ul>
+<li>Comobilization of a genetic region required for common function (not only one gene but functional sets of genes)</li>
+<li>Can recombine with similar portions in the genome
+<ul>
+<li>Gene conversion: Gene repairment by homologus recombination of HGT (corepair)</li>
+<li>Can lead to duplicate: Almost random insertion in genomes and large range of sequence similarity relative to the native homolog.</li>
+<li>Increase in protein family sizes are more related to HGT =&gt; May be we can consider that if genes are not present in clusters in the same proportions =&gt; they do not co-localize</li>
+<li>HGT share less protein-protein interactions and regulatory mechanisms: Very suitable for new clusters</li>
+</ul></li>
+<li>Can integrate a new entire function</li>
+<li>Occurs at very high rate</li>
+<li>Consequently we can make a probability to create a new core-point or try to repair and existing one, depending on the distance to existing core-points</li>
+</ul>
+<h2 id="amplification-a">Amplification (A):</h2>
+<ul>
+<li>Tandem duplication can create side by side several gene copies.</li>
+<li>Increase adaptative mutation rate.
+<ul>
+<li>Gene with weak function of set of genes =&gt; co-amplified =&gt; restore function.</li>
+<li>Higher chance of reversion or acquisition of compensatory mutation</li>
+</ul></li>
+<li>Rudimentary form of regulation: reversible change in dosage =&gt; enable adaptation to variable environments</li>
+<li>Novel functions:
+<ul>
+<li>Duplication and divergence (subfunctionalization, neofunctionalization)</li>
+</ul></li>
+<li>Deamplification often occurs quickly after:
+<ul>
+<li>removal of selective pressure</li>
+<li>Acquisition of compensatory mutation</li>
+</ul></li>
+<li>Most amplicons are stable and amplify at low rate but amplification generates tandem repeats that recombine at high frequencies.
+<ul>
+<li>Tandems are very unstable =&gt; deletion or amplification.</li>
+<li>Recombination is more frequent between close genes and similar genes<br />
+</li>
+<li>Rate-limiting step =&gt; initial amplification</li>
+</ul></li>
+</ul>
+<h2 id="duplicates">Duplicates:</h2>
+<ul>
+<li>Evolutionnary reservoirs:
+<ul>
+<li>Mutators =&gt; Increase mutation rate in stress times (deletion of reparing genes)</li>
+<li>multiple repeats =&gt; Increase homologus recombination =&gt; increase instability (number of duplicates generated and mutations)</li>
+<li>Frequent stresses =&gt; generate variability at reduced number of loci =&gt; maintenance of repeats (recombination)</li>
+<li>repeats undergo conversion which tend to keep them alike</li>
+</ul></li>
+<li>Divergence:
+<ul>
+<li>Reduce homologus recombination of repeats (repeats regions has less mutations)</li>
+<li>Reduce gene conversion which keep repeats alike and thus lead to more recombination</li>
+<li>Selection of duplicate genes (paralogs) that diverged and obtained a new function:
+<ul>
+<li>subfunctionalization:
+<ul>
+<li>The two copies specialize in subfunctions of the primitive gene</li>
+<li>Alows to escape from adaptative conflict (2 functions cannot be optimized on the same gene). By splitting the two functions =&gt; independence of evolution.</li>
+</ul></li>
+<li>neofunctionalization:
+<ul>
+<li>One copy acquire a new function.</li>
+<li>Close related to the function required. Novelty built on a conserved enzymatuc mechanism</li>
+</ul></li>
+</ul></li>
+<li>If selection for amplification is stable: Genes have more time to diverge and adress a new function (related to the first one) and be selected. This new function may be inefficient and need amplification …</li>
+</ul></li>
+<li>Deletion:
+<ul>
+<li>Arise from recombination between repeats at high rates</li>
+</ul></li>
+<li>Silencing by mutational inactivation
+<ul>
+<li>Accumulation of point substitution =&gt; pseudo-gene (too diferent to be repeats and recombine)</li>
+</ul></li>
+</ul>
+<h2 id="genome-size">Genome size:</h2>
+<ul>
+<li>Number and density of IS encrease rapidly with genome size (so more recombination and mutations)</li>
+<li>Will not increase too much:
+<ul>
+<li>Amplicons are stable</li>
+<li>Only when turned into tandems they become unstable</li>
+<li>Deletion =&gt; back again to limiting step</li>
+</ul></li>
+</ul>
+<h2 id="hgt-and-a">HGT and A</h2>
+<ul>
+<li>HGT genes are typically maladapted for expression on the host =&gt; Through amplification =&gt; adapt more rapidly by the joint action of three effects.
+<ul>
+<li>amplified regions offer a larger mutation target (more mutations accumulating in the amplified set of genes than in a single-gene locus).</li>
+<li>recombination between repeats may engage the action of an error-prone polymerase and thus become locally mutagenic.</li>
+<li>repeats will accumulate changes and allele reassortment may occur within chromosomes by recombination between the copies, accelerating the combination of favorable changes in one gene.</li>
+</ul></li>
+<li>HGT usually undergo A and usually lead to paralog retention</li>
+<li>A gene inserted besides an existing through HGT is ready for amplification.</li>
+<li>New functions acquired could undergo amplification.</li>
+</ul>
+<h1 id="ideas-for-program">Ideas for program</h1>
+<h2 id="hgt">HGT</h2>
+<ul>
+<li>Given that an entire genetic region is co-mobilized we can insert several dimensions at once =&gt; how to choose dimensions</li>
+<li>Given that HGT can be inserted in the genome according to similarity (conversion or insertion) =&gt; Probability to assign to a cluster as a function of its distance</li>
+<li>Start amplification directly after?</li>
+<li>Idea: Compute the probability to be assigned to each particular core-point, if an existing one is chosen, only take:
+<ul>
+<li>the dimensions in the core-point</li>
+<li>more?</li>
+<li>May be only the remaining dimensions =&gt; specially given that protein family increase is more related to HGT and random insertion in genome</li>
+</ul></li>
+<li>Otherwise take random dimensions (how many?)</li>
+</ul>
+<h2 id="amplification">Amplification</h2>
+<ul>
+<li>Should be low if only one gene exists</li>
+<li>Amplification of N genes =&gt; Add N coordinates from the cluster (along the chosen dimension or several of them depending on the region that is going to be amplified) compute the mean and update the location and the weights</li>
+<li>P(amplification) = f(W)</li>
+<li>P(amplify all genes in cluster) = f(W/Nb_genes)</li>
+</ul>
+<h2 id="deamplification">Deamplification</h2>
+<ul>
+<li>If compensatory mutation or no more selective pressure =&gt; No change on fitness</li>
+<li>We can assume that a compensatory mutation arises very quickly and then we can lose genes without degradation only updating W?</li>
+<li>We can update the W and the location by removing a random coordinate taken from the dataset?</li>
+</ul>
+<h2 id="recombination-mutation-hotspot">Recombination, mutation hotspot</h2>
+<ul>
+<li>Take N new elements (the ones that will recombine) and update the mean without changing W</li>
+</ul>
+<h2 id="divergence-of-duplicates">Divergence of duplicates</h2>
+<ul>
+<li>Pseudogene:
+<ul>
+<li>P(number of duplicates) =&gt; one gene becomes a pseudogene (impact on location? … may be we can do the same as for Deamplificaiton)</li>
+</ul></li>
+<li>Sub/neo-functionalization:
+<ul>
+<li>Add a new dimension in the same cluster taking a coordinate in the cluster points along this dimension</li>
+<li>Start amplification?</li>
+<li>Remove one element in the previous gene (do the same as for deamplification)</li>
+</ul></li>
+</ul>
+<h2 id="general-ideas">General ideas:</h2>
+<ul>
+<li>Maybe we can say that single duplications events (from W=1 to further), creation of new dimensions (ne-functionalization) and HGT lead to amplification.</li>
+<li>Amplification can also arise in tandem genes</li>
+<li>Deamplification has no impact on the location</li>
+<li>Pseudogeneation has no impact on the location</li>
+<li>Number of mutational events is a function of the the genome size</li>
+<li>Can we use non-functional elements as another mark to see which regions will be more likely to undergo simple duplication and simple deletion?</li>
+<li>Using medians will be probably more complicate for aggregations.</li>
+<li>Another nice idea was to keep points in clusters (as DBSCAN core-points) to generate various shapes =&gt; more complicate given our little amount of time</li>
+<li>We can have an implicit population as in Kymero</li>
+<li>Given that searching centroids is coherent with minimization of euclidian distance, we will probably need to move towards euclidian distance.</li>
+<li>If we use centroids can we have a fast way to see if the modification is positive or not without computing all distances?</li>
+<li>We can use the variance as in PROCLUS to exclude dimensions that are too spread.</li>
+</ul>
+</body>
+</html>

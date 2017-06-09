@@ -1,0 +1,119 @@
+# Ciudades
+## DUT Informatique
+[DUT info](http://www.onisep.fr/content/search?actionRecherche=1&limit=50&sort=etablissement___attr_commune_s&ord=asc&filters[formation___attr_identifiant_si][]=2718)
++ Toulouse
+	+ Institut universitaire technologique Paul Sabatier, UT3 Université Toulouse III - Paul Sabatier	2 ans	Toulouse	31077
+	+ IUT de Blagnac, Université Toulouse - Jean Jaurès	2 ans	Blagnac	31703
++ Rodez (cerca de toulouse)
+	+ IUT de Rodez, Université Toulouse I Capitole	2 ans	Rodez	12000
++ Montpellier
+	+ IUT de Montpellier, Université de Montpellier	2 ans	Montpellier	34296
++ Lille
+	+ IUT A - Université de Lille 1, Université de Lille 1	2 ans	Villeneuve-d'Ascq	59653
++ Aix-en-provence
+	+ IUT d'Aix Marseille-site d'Aix-en-Provence, Université d'Aix-Marseille	2 ans	Aix-en-Provence	13625
++ Arles
+	+ IUT d'Aix-Marseille - site d'Arles, Université d'Aix-Marseille	2 ans	Arles	13200
++ Amiens (norte)
+	+ IUT d'Amiens, Université Picardie Jules Verne Amiens	2 ans	Amiens	80025
++ Annecy
+	+ IUT d'Annecy, Université Savoie Mont Blanc	2 ans	Annecy-le-Vieux	74942
++ Bayonne
+	+ IUT de Bayonne, Pays Basque - Site d'Anglet, Université Pau et Pays de l'Adour	2 ans	Anglet	64610
++ Belfort (por alsace)
+	+ IUT de Belfort-Montbeliard, site de Belfort, Université de Franche-Comté	2 ans	Belfort	90016
++ Bordeaux
+	+ IUT de Bordeaux - Site de Bordeaux-Gradignan, Université de Bordeaux	2 ans	Gradignan	33175
++ Caen
+	+ IUT de Caen antenne d'Ifs, Université de Caen Normandie	2 ans	Ifs	14123
++ Clermont-ferrand
+	+ IUT de Clermont-Ferrand - Aubière, Université d'Auvergne, Université d'Auvergne	2 ans	Aubière	63172
++ Puy-en-velay(pueblo bonito, triangulo con lyon y clermont)
+	+ IUT de Clermont-Ferrand - Le Puy-en-Velay, Université d'Auvergne, Université d'Auvergne	2 ans	Le Puy-en-Velay	43000
++ Dijon
+	+ IUT de Dijon-Auxerre, université de Bourgogne	2 ans	Dijon	21078
++ Lannion(bretana, mancha)
+	+ IUT de Lannion, Université Rennes 1	2 ans	Lannion	22302
++ La rochelle
+	+ IUT de La Rochelle, Université de La Rochelle	2 ans	La Rochelle	17026
++ Laval (rennes)
+	+ IUT de Laval, Université du Maine	2 ans	Laval	53020
++ Lens (entre Lille y Amiens)
+	+ IUT de Lens, Université d'Artois	2 ans	Lens	62307
++ Marne la vallee (paris)
+	+ IUT de Marne-La-Vallée (site Champs-sur-Marne), Université Paris-Est Marne-La-Vallée	2 ans	Champs-sur-Marne	77420
++ Metz
+	+ IUT de Metz, Université de Lorraine	2 ans	Metz	57045
++ Paris
+	+ IUT Paris Descartes, Université Paris Descartes	2 ans	Paris	75016
+	+ IUT d'Orsay, Université Paris-Sud	2 ans	Orsay	91400
+	+ IUT de Vélizy, Université de Versailles Saint-Quentin-en-Yvelines	2 ans	Vélizy-Villacoublay	78140
+	+ IUT de Montreuil, Université Vincennes-Saint-Denis	2 ans	Montreuil	93100
+	+ IUT de Seine et Marne Sud (site Sénart), Université Paris-Est Créteil Val-de-Marne	2 ans	Lieusaint	77567
+	+ IUT de Villetaneuse, Université Paris 13	2 ans	Villetaneuse	93430
+	+ Fontainebleau (cerca de paris)
+		+ IUT de Seine et Marne Sud (site Fontainebleau), Université Paris-Est Créteil Val-de-Marne	2 ans	Fontainebleau	77300
++ Nantes
+	+ IUT de Nantes - site de Nantes, Université de Nantes	2 ans	Nantes	44041
++ Valbonne (cerca nice)
+	+ IUT de Nice Côte d'Azur- Site de Sophia-Antipolis, Université Nice - Sophia Antipolis	2 ans	Valbonne	06560
++ Nice
+	+ IUT de Nice Côte d'Azur, Université Nice - Sophia Antipolis	2 ans	Nice	06206
++ Reims (entre paris y belgica)
+	+ IUT de Reims, Université de Reims Champagne-Ardenne	2 ans	Reims	51687
++ Saint dié des vosges (entre nancy y strasbourg)
+	+ IUT de Saint-Dié des Vosges, Université de Lorraine	2 ans	Saint-Dié-des-Vosges	88100
++ Maubeuge (frontera con belgica por charleroi)
+	+ IUT de Valenciennes Campus de Maubeuge, Université de Valenciennes et du Hainaut Cambrésis	2 ans	Maubeuge	59600
++ Vannes (costa sur bretana)
+	+ IUT de Vannes, Université Bretagne-Sud	2 ans	Vannes	56017
++ Orleans
+	+ IUT d'Orléans, Université d'Orléans	2 an	Orléans	45067
++ Le Havre (costa norte entre rouen y cannes)
+	IUT du Havre, Université du Havre	2 ans	Le Havre	76610
++ Limoges (entre la rochelle y clermont)
+	+ IUT du Limousin, Université de Limoges	2 ans	Limoges	87065
++ Callais
+	+ IUT du littoral - Calais, Université du Littoral Côte d'Opale	2 ans	Calais	62228
++ Bourg-en-bresse
+	+ IUT Lyon 1 (site de Bourg-en-Bresse) - Département GTE, GEA et informatique, Université Claude Bernard - Lyon 1	2 ans	Bourg-en-Bresse	01000
++ Villeurbanne
+	+ IUT Lyon 1 (site de Villeurbanne Doua), Université Claude Bernard - Lyon 1	1 an	Villeurbanne	69622
++ Valence (entre Lyon y avignon)
+	+ IUT de Valence, Université Grenoble Alpes (COMUE)	2 ans	Valence	26901
++ Nancy
+	+ IUT Nancy-Charlemagne, Université de Lorraine	2 ans	Nancy	54052
++ Strasbourg
+	+ IUT Robert Schuman, Université de Strasbourg	2 ans	Illkirch-Graffenstaden	67411
++ Grenoble
+	+ IUT 2, Université Grenoble Alpes (COMUE)	2 ans	Grenoble	38031
+
+## Bioinformatique
+[IUT bioinfo](http://www.onisep.fr/content/search?searchForm=etab&etabRecherche=1&SearchText=bio+informatique&SubTreeArray=243418&zone_geo=&filters%5Battr_categorie_type_etablissement_t%5D%5B%5D=7&etab_autocomplete=bio+informatique&submit=Lancer+la+recherche)
++ Paris
+	+ Institut technologique - Collège de professionnalisation du CNAM (IT-CNAM), Conservatoire national des arts et métiers	Saint-Denis	93210
++ Marseille
+	+ IUT d'Aix- Marseille- site de Saint-Jérôme Marseille, Université d'Aix-Marseille	Marseille	13388
++ Caen
+	+ IUT de Caen, Université de Caen Normandie	Caen	14032
++ Aurillac (entre clermont y toulouse)
+	+ IUT de Clermont-Ferrand - Aurillac, Université d'Auvergne, Université d'Auvergne	Aurillac	15013
++ Nantes
+	+ IUT de Saint-Nazaire, Université de Nantes	Saint-Nazaire	44606
++ Mont-de-marsan (entre burdeos y pau)
+	+ IUT des Pays de l'Adour - Site de Mont-de-Marsan, Université Pau et Pays de l'Adour	Mont-de-Marsan	40004
++ Limoges (cercad de clermont)
+	+ IUT du Limousin, Université de Limoges	Limoges	87065
++ Villeurbanne
+	+ IUT Lyon 1 (site de Villeurbanne Doua), Université Claude Bernard - Lyon 1	Villeurbanne	69622
++ Nancy
+	+ IUT Nancy-Brabois - site de Villers, Université de Lorraine	Villers-lès-Nancy	54601
+## Data-science
+[data science](http://www.onisep.fr/content/search?searchForm=etab&etabRecherche=1&SearchText=data+science&SubTreeArray=243418&zone_geo=&filters%5Battr_categorie_type_etablissement_t%5D%5B%5D=7&etab_autocomplete=data+science&submit=Lancer+la+recherche)
++ Lille
+	+ IUT C, Université de Lille 2	Roubaix	59060
++ Paris
+	+ IUT Paris Descartes, Université Paris Descartes	Paris	75016
++ Grenoble
+	+ IUT 2, Université Grenoble Alpes (COMUE)	Grenoble	38031
+

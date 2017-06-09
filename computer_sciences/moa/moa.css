@@ -1,0 +1,24 @@
+# Recompile MOA using maven ... This did not work
+
++ Download the source files in 
++ Download [Apache Maven](https://maven.apache.org/download.cgi?Preferred=http%3A%2F%2Fapache.crihan.fr%2Fdist%2F)
++ Download also [JDK java using brew](http://stackoverflow.com/questions/24342886/how-to-install-java-8-on-mac)
++ Change your bashprofile and add this [lines](http://stackoverflow.com/questions/29255495/maven-installation-osx-error-unsupported-major-minor-version-51-0)
++ type `mvn package` in the moa folder
+
+# [Recompile MOA by hand](http://stackoverflow.com/questions/6623161/javac-option-to-compile-all-java-files-under-a-given-directory-recursively)
+
++ `find . -iname "*.java" > sources.txt`
++ `find . -name "*.class" -type f -delete`
++ `javac -cp .:weka.jar:sizeofag.jar @sources.txt`
++ required  weka.jar and sizeof.jar
++ `find . -iname "*.class" > sources_classes.txt`
++ Make a [manifest file](https://docs.oracle.com/javase/tutorial/deployment/jar/downman.html) in order to add jars to the classpath of the main jar file :
+
+Manifest-Version: 1.0
+Class-Path: weka.jar sizeofag.jar
+Created-By: 1.7.0_06 (Oracle Corporation)
+
++ jar cfm moa.jar Manifest.txt @sources_classes.txt
+
+# 
