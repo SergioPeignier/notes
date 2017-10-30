@@ -4,6 +4,7 @@
 
 * Las teorias cientificas y el ego: El ego te lleva a querer 1) descubrir una teoria genial y bonita (conceptos inesperados y hermosos, como un cuento) 2) Descubrirla por completo: Si descubres un nuevo bosque no quieres ser aquel que solo descubrio un pequeno sendero, quieres ser aquel que descubrio todo el bosque. Pero ambas cosas son imposibles, el tiempo no te lo permitiriay es muy dificil construir de 0 una teoria hermosa que tenga total sentido. Asi que el ego te lleva a simplifacar cosas, a embaucarte a ti mismo y a construir un castillo con naipes.
 
+* Musica: https://www.youtube.com/watch?v=eHVDpQRt_f4 http://www.scherzo.es/Blas-Matamoro/blog/lenin-musica
 
 ## Pedazos de poemas
 * 
